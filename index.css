@@ -1,0 +1,129 @@
+:root {
+    --pink: #DA4868;
+    --orange: #E95828;
+    --yellow: #F1C042;
+    --turquoise: #80F4E0;
+    --blue: #0D3188;
+    --purple: #A67BEF;
+    --gray: #9C9C9C;
+    --white: #FFFFFF;
+
+    --line-one: 5px;
+    --line-two: 10px;
+    --line-three: 15px;
+    --line-four: 20px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    height: 50px;
+    padding: 0 20px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns:1.8fr 1.7fr 120px;
+    position: absolute;
+    right: 2%;
+    left: 2%;
+    bottom: 2%;
+    height: 50px;
+    z-index: 99999;
+    border: 1px solid var(--gray);
+    background-color: var(--white);
+}
+
+button {
+    border: none;
+}
+
+#line-one {
+    height: var(--line-one)
+}
+
+#line-two {
+    height: var(--line-two)
+}
+
+#line-three {
+    height: var(--line-three)
+}
+
+#line-four {
+    height: var(--line-four)
+}
+
+#color-one {
+    background-color: var(--pink);
+}
+
+#color-two {
+    background-color: var(--orange);
+}
+
+#color-three {
+    background-color: var(--yellow);
+}
+
+#color-four {
+    background-color: var(--turquoise);
+}
+
+#color-five {
+    background-color: var(--blue);
+}
+
+#color-six {
+    background-color: var(--purple);
+}
+
+
+.palette {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-right: 1px solid var(--gray);
+    padding-left: 10px;
+}
+
+#clear-canvas-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid var(--gray);
+}
+
+p {
+    padding-right: 10px;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.line > button {
+    width: 105px;
+    background-color: #000000;
+    margin-right: 10px;
+}
+
+.palette > button {
+    width: 80px;
+    height: 20px;
+}
+
+
+
